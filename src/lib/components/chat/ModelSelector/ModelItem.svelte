@@ -85,12 +85,11 @@
 			</div>
 
 			<div class="flex items-center">
-				<Tooltip content={`${item.label} (${item.value})`} placement="top-start">
+				<!-- Tooltip removed -->
 					<div class="line-clamp-1">
 						{item.label}
 					</div>
-				</Tooltip>
-			</div>
+				</div>
 
 			<div class=" shrink-0 flex items-center gap-2">
 				{#if item.model.owned_by === 'ollama'}
